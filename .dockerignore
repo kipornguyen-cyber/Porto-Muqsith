@@ -1,0 +1,30 @@
+# Dependencies / build output
+node_modules
+vendor
+public/build
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE / OS
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Laravel runtime files
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Tests / local tooling
+.phpunit.result.cache
+coverage
